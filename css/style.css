@@ -1,0 +1,104 @@
+ul {
+  background-color: rgba(136, 176, 35, 0.7);
+  list-style-type: none;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  width: 100%;
+}
+
+li {
+  float: right;
+  font-size: 150%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 60px;
+  background-color: #edf1fe
+}
+.dog-duotone {
+  max-width: 100%;
+  height: auto;
+  align: right;
+}
+.welcome {
+  text-align: center;
+}
+
+.img-gallery{
+  margin: 15px;
+}
+.portfolio-cells {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+}
+
+.name-plate {
+  font-family: yesteryear, cursive;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 100px;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+  display: block;
+}
+
+.profile-picture {
+  padding-bottom: 60px;
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  font-family: 'Raleway';
+  color: #2B272B;
+  margin-top: 20px;
+  margin-right: 15px;
+  letter-spacing: 1px;
+}
+.social-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 5px solid #2b272b;
+}
+.icons {
+  position: absolute;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+  font-size: 100px;
+  z-index: 9999;
+  width: 100%;
+}
+
+.mymap{
+  text-align: center;
+  font-family: Yesteryear
+}
+#map{
+  width: 100%;
+  height: 400px;
+  margin: 20px
+}
+
+footer{
+  background-color: rgba(136, 176, 35, 0.7);
+  padding: 20px;
+}
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
